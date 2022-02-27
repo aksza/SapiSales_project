@@ -24,6 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager"/>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models"/>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/headers"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
@@ -42,6 +45,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager"/>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models"/>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/headers"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
@@ -74,7 +80,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/main.c">
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab2.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab_manager.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models/product.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models/user.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/main.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab2.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab_manager.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/models/product.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/models/user.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/headers/errors.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/headers/messages.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/headers/useful.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/src/errors.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/src/messages.c">
 			<Option target="SapiSales_project"/>
 		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/CMakeLists.txt">

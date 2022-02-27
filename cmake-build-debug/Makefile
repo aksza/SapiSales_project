@@ -128,29 +128,173 @@ SapiSales_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/build
 .PHONY : SapiSales_project/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+sapi_sales/src/main.obj: sapi_sales/src/main.c.obj
+.PHONY : sapi_sales/src/main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/main.c.obj
-.PHONY : main.c.obj
+sapi_sales/src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj
+.PHONY : sapi_sales/src/main.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+sapi_sales/src/main.i: sapi_sales/src/main.c.i
+.PHONY : sapi_sales/src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/main.c.i
-.PHONY : main.c.i
+sapi_sales/src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.i
+.PHONY : sapi_sales/src/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+sapi_sales/src/main.s: sapi_sales/src/main.c.s
+.PHONY : sapi_sales/src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/main.c.s
-.PHONY : main.c.s
+sapi_sales/src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.s
+.PHONY : sapi_sales/src/main.c.s
+
+sapi_sales/src/manager/lab2.obj: sapi_sales/src/manager/lab2.c.obj
+.PHONY : sapi_sales/src/manager/lab2.obj
+
+# target to build an object file
+sapi_sales/src/manager/lab2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.obj
+.PHONY : sapi_sales/src/manager/lab2.c.obj
+
+sapi_sales/src/manager/lab2.i: sapi_sales/src/manager/lab2.c.i
+.PHONY : sapi_sales/src/manager/lab2.i
+
+# target to preprocess a source file
+sapi_sales/src/manager/lab2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.i
+.PHONY : sapi_sales/src/manager/lab2.c.i
+
+sapi_sales/src/manager/lab2.s: sapi_sales/src/manager/lab2.c.s
+.PHONY : sapi_sales/src/manager/lab2.s
+
+# target to generate assembly for a file
+sapi_sales/src/manager/lab2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.s
+.PHONY : sapi_sales/src/manager/lab2.c.s
+
+sapi_sales/src/manager/lab_manager.obj: sapi_sales/src/manager/lab_manager.c.obj
+.PHONY : sapi_sales/src/manager/lab_manager.obj
+
+# target to build an object file
+sapi_sales/src/manager/lab_manager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.obj
+.PHONY : sapi_sales/src/manager/lab_manager.c.obj
+
+sapi_sales/src/manager/lab_manager.i: sapi_sales/src/manager/lab_manager.c.i
+.PHONY : sapi_sales/src/manager/lab_manager.i
+
+# target to preprocess a source file
+sapi_sales/src/manager/lab_manager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.i
+.PHONY : sapi_sales/src/manager/lab_manager.c.i
+
+sapi_sales/src/manager/lab_manager.s: sapi_sales/src/manager/lab_manager.c.s
+.PHONY : sapi_sales/src/manager/lab_manager.s
+
+# target to generate assembly for a file
+sapi_sales/src/manager/lab_manager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.s
+.PHONY : sapi_sales/src/manager/lab_manager.c.s
+
+sapi_sales/src/models/product.obj: sapi_sales/src/models/product.c.obj
+.PHONY : sapi_sales/src/models/product.obj
+
+# target to build an object file
+sapi_sales/src/models/product.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.obj
+.PHONY : sapi_sales/src/models/product.c.obj
+
+sapi_sales/src/models/product.i: sapi_sales/src/models/product.c.i
+.PHONY : sapi_sales/src/models/product.i
+
+# target to preprocess a source file
+sapi_sales/src/models/product.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.i
+.PHONY : sapi_sales/src/models/product.c.i
+
+sapi_sales/src/models/product.s: sapi_sales/src/models/product.c.s
+.PHONY : sapi_sales/src/models/product.s
+
+# target to generate assembly for a file
+sapi_sales/src/models/product.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.s
+.PHONY : sapi_sales/src/models/product.c.s
+
+sapi_sales/src/models/user.obj: sapi_sales/src/models/user.c.obj
+.PHONY : sapi_sales/src/models/user.obj
+
+# target to build an object file
+sapi_sales/src/models/user.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.obj
+.PHONY : sapi_sales/src/models/user.c.obj
+
+sapi_sales/src/models/user.i: sapi_sales/src/models/user.c.i
+.PHONY : sapi_sales/src/models/user.i
+
+# target to preprocess a source file
+sapi_sales/src/models/user.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.i
+.PHONY : sapi_sales/src/models/user.c.i
+
+sapi_sales/src/models/user.s: sapi_sales/src/models/user.c.s
+.PHONY : sapi_sales/src/models/user.s
+
+# target to generate assembly for a file
+sapi_sales/src/models/user.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.s
+.PHONY : sapi_sales/src/models/user.c.s
+
+shared/src/errors.obj: shared/src/errors.c.obj
+.PHONY : shared/src/errors.obj
+
+# target to build an object file
+shared/src/errors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/shared/src/errors.c.obj
+.PHONY : shared/src/errors.c.obj
+
+shared/src/errors.i: shared/src/errors.c.i
+.PHONY : shared/src/errors.i
+
+# target to preprocess a source file
+shared/src/errors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/shared/src/errors.c.i
+.PHONY : shared/src/errors.c.i
+
+shared/src/errors.s: shared/src/errors.c.s
+.PHONY : shared/src/errors.s
+
+# target to generate assembly for a file
+shared/src/errors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/shared/src/errors.c.s
+.PHONY : shared/src/errors.c.s
+
+shared/src/messages.obj: shared/src/messages.c.obj
+.PHONY : shared/src/messages.obj
+
+# target to build an object file
+shared/src/messages.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/shared/src/messages.c.obj
+.PHONY : shared/src/messages.c.obj
+
+shared/src/messages.i: shared/src/messages.c.i
+.PHONY : shared/src/messages.i
+
+# target to preprocess a source file
+shared/src/messages.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/shared/src/messages.c.i
+.PHONY : shared/src/messages.c.i
+
+shared/src/messages.s: shared/src/messages.c.s
+.PHONY : shared/src/messages.s
+
+# target to generate assembly for a file
+shared/src/messages.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/shared/src/messages.c.s
+.PHONY : shared/src/messages.c.s
 
 # Help Target
 help:
@@ -161,9 +305,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SapiSales_project
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... sapi_sales/src/main.obj
+	@echo ... sapi_sales/src/main.i
+	@echo ... sapi_sales/src/main.s
+	@echo ... sapi_sales/src/manager/lab2.obj
+	@echo ... sapi_sales/src/manager/lab2.i
+	@echo ... sapi_sales/src/manager/lab2.s
+	@echo ... sapi_sales/src/manager/lab_manager.obj
+	@echo ... sapi_sales/src/manager/lab_manager.i
+	@echo ... sapi_sales/src/manager/lab_manager.s
+	@echo ... sapi_sales/src/models/product.obj
+	@echo ... sapi_sales/src/models/product.i
+	@echo ... sapi_sales/src/models/product.s
+	@echo ... sapi_sales/src/models/user.obj
+	@echo ... sapi_sales/src/models/user.i
+	@echo ... sapi_sales/src/models/user.s
+	@echo ... shared/src/errors.obj
+	@echo ... shared/src/errors.i
+	@echo ... shared/src/errors.s
+	@echo ... shared/src/messages.obj
+	@echo ... shared/src/messages.i
+	@echo ... shared/src/messages.s
 .PHONY : help
 
 

@@ -65,32 +65,129 @@ include CMakeFiles/SapiSales_project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SapiSales_project.dir/flags.make
 
-CMakeFiles/SapiSales_project.dir/main.c.obj: CMakeFiles/SapiSales_project.dir/flags.make
-CMakeFiles/SapiSales_project.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SapiSales_project.dir/main.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\SapiSales_project.dir\main.c.obj -c "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\main.c"
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj: CMakeFiles/SapiSales_project.dir/flags.make
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj: CMakeFiles/SapiSales_project.dir/includes_C.rsp
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj: ../sapi_sales/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\main.c.obj -c "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\main.c"
 
-CMakeFiles/SapiSales_project.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiSales_project.dir/main.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\main.c" > CMakeFiles\SapiSales_project.dir\main.c.i
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\main.c" > CMakeFiles\SapiSales_project.dir\sapi_sales\src\main.c.i
 
-CMakeFiles/SapiSales_project.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiSales_project.dir/main.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\main.c" -o CMakeFiles\SapiSales_project.dir\main.c.s
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\main.c" -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\main.c.s
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.obj: CMakeFiles/SapiSales_project.dir/flags.make
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.obj: CMakeFiles/SapiSales_project.dir/includes_C.rsp
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.obj: ../sapi_sales/src/manager/lab2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\manager\lab2.c.obj -c "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\manager\lab2.c"
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\manager\lab2.c" > CMakeFiles\SapiSales_project.dir\sapi_sales\src\manager\lab2.c.i
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\manager\lab2.c" -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\manager\lab2.c.s
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.obj: CMakeFiles/SapiSales_project.dir/flags.make
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.obj: CMakeFiles/SapiSales_project.dir/includes_C.rsp
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.obj: ../sapi_sales/src/manager/lab_manager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\manager\lab_manager.c.obj -c "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\manager\lab_manager.c"
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\manager\lab_manager.c" > CMakeFiles\SapiSales_project.dir\sapi_sales\src\manager\lab_manager.c.i
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\manager\lab_manager.c" -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\manager\lab_manager.c.s
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.obj: CMakeFiles/SapiSales_project.dir/flags.make
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.obj: CMakeFiles/SapiSales_project.dir/includes_C.rsp
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.obj: ../sapi_sales/src/models/product.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\models\product.c.obj -c "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\models\product.c"
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\models\product.c" > CMakeFiles\SapiSales_project.dir\sapi_sales\src\models\product.c.i
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\models\product.c" -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\models\product.c.s
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.obj: CMakeFiles/SapiSales_project.dir/flags.make
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.obj: CMakeFiles/SapiSales_project.dir/includes_C.rsp
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.obj: ../sapi_sales/src/models/user.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\models\user.c.obj -c "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\models\user.c"
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\models\user.c" > CMakeFiles\SapiSales_project.dir\sapi_sales\src\models\user.c.i
+
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\sapi_sales\src\models\user.c" -o CMakeFiles\SapiSales_project.dir\sapi_sales\src\models\user.c.s
+
+CMakeFiles/SapiSales_project.dir/shared/src/errors.c.obj: CMakeFiles/SapiSales_project.dir/flags.make
+CMakeFiles/SapiSales_project.dir/shared/src/errors.c.obj: CMakeFiles/SapiSales_project.dir/includes_C.rsp
+CMakeFiles/SapiSales_project.dir/shared/src/errors.c.obj: ../shared/src/errors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SapiSales_project.dir/shared/src/errors.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\SapiSales_project.dir\shared\src\errors.c.obj -c "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\shared\src\errors.c"
+
+CMakeFiles/SapiSales_project.dir/shared/src/errors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiSales_project.dir/shared/src/errors.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\shared\src\errors.c" > CMakeFiles\SapiSales_project.dir\shared\src\errors.c.i
+
+CMakeFiles/SapiSales_project.dir/shared/src/errors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiSales_project.dir/shared/src/errors.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\shared\src\errors.c" -o CMakeFiles\SapiSales_project.dir\shared\src\errors.c.s
+
+CMakeFiles/SapiSales_project.dir/shared/src/messages.c.obj: CMakeFiles/SapiSales_project.dir/flags.make
+CMakeFiles/SapiSales_project.dir/shared/src/messages.c.obj: CMakeFiles/SapiSales_project.dir/includes_C.rsp
+CMakeFiles/SapiSales_project.dir/shared/src/messages.c.obj: ../shared/src/messages.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SapiSales_project.dir/shared/src/messages.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\SapiSales_project.dir\shared\src\messages.c.obj -c "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\shared\src\messages.c"
+
+CMakeFiles/SapiSales_project.dir/shared/src/messages.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiSales_project.dir/shared/src/messages.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\shared\src\messages.c" > CMakeFiles\SapiSales_project.dir\shared\src\messages.c.i
+
+CMakeFiles/SapiSales_project.dir/shared/src/messages.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiSales_project.dir/shared/src/messages.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\shared\src\messages.c" -o CMakeFiles\SapiSales_project.dir\shared\src\messages.c.s
 
 # Object files for target SapiSales_project
 SapiSales_project_OBJECTS = \
-"CMakeFiles/SapiSales_project.dir/main.c.obj"
+"CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj" \
+"CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.obj" \
+"CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.obj" \
+"CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.obj" \
+"CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.obj" \
+"CMakeFiles/SapiSales_project.dir/shared/src/errors.c.obj" \
+"CMakeFiles/SapiSales_project.dir/shared/src/messages.c.obj"
 
 # External object files for target SapiSales_project
 SapiSales_project_EXTERNAL_OBJECTS =
 
-SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/main.c.obj
+SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj
+SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.obj
+SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.obj
+SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.obj
+SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.obj
+SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/shared/src/errors.c.obj
+SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/shared/src/messages.c.obj
 SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/build.make
 SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/linklibs.rsp
 SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/objects1.rsp
 SapiSales_project.exe: CMakeFiles/SapiSales_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable SapiSales_project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\egyetem\elso ev\masodik felev\algo\kodok\SapiSales_project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable SapiSales_project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SapiSales_project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

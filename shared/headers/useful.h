@@ -1,0 +1,8 @@
+//
+// Created by Aksza on 2/23/2022.
+//
+
+#ifndef SAPISALES_PROJECT_USEFUL_H
+#define SAPISALES_PROJECT_USEFUL_H
+
+#endif //SAPISALES_PROJECT_USEFUL_H
