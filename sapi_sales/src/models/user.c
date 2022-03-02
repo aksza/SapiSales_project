@@ -49,15 +49,16 @@ char* getSpetialization(enum Spetialization type){
     }
 }
 
-User* createUser(char* name, enum UserType type,enum Gender gender, enum Spetialization spetialization, unsigned int birthYear){
-    User *newUser = malloc(sizeof(User));
-    newUser->id = ++numberOfUsers;
-    newUser->spetialization = spetialization;
-    newUser->birthYear = birthYear;
-    newUser->gender = gender;
-    newUser->type = type;
-    strcpy(newUser->name,name);
-    return newUser;
+void createUser(User **user,char* name, enum UserType type,enum Gender gender, enum Spetialization spetialization, BirthDate birthYear){
+
+    (*user)->id = ++numberOfUsers;
+    (*user)->spetialization = spetialization;
+    (*user)->birthDate.year = birthYear.year;
+    (*user)->birthDate.month = birthYear.month;
+    (*user)->birthDate.day = birthYear.day;
+    (*user)->gender = gender;
+    (*user)->type = type;
+    strcpy((*user)->name,name);
 }
 
 void printUser(User *user){
@@ -66,11 +67,13 @@ void printUser(User *user){
            "\t - TYPE: %s\n"
            "\t - GENDER: %s\n"
            "\t - SPETIALIZATION: %s\n"
-           "\t - BIRTH YEAR: %i\n",
+           "\t - BIRTH YEAR: %i.%i.%i.\n",
            user->name,
            user->id,
            getUserType(user->type),
            getGender(user->gender),
            getSpetialization(user->spetialization),
-           user->birthYear);
+           user->birthDate.year,
+           user->birthDate.month,
+           user->birthDate.day);
 }

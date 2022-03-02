@@ -7,7 +7,10 @@
 
 #include "user.h"
 #include "product.h"
+#include <stdbool.h>
 
+bool leapyear(int year);
+BirthDate* birthDateGenerate();
 void testUserFunctionalities();
 void testProductFunctionalities();
 

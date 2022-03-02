@@ -32,19 +32,26 @@ enum Spetialization{
 };
 
 typedef struct {
+    int year;
+    int month;
+    int day;
+}BirthDate;
+
+typedef struct {
     unsigned int id;
     char name[50];
     enum UserType type;
     enum Gender gender;
     enum Spetialization spetialization;
-    unsigned int birthYear;
+    //unsigned int birthYear; -> change this
+    BirthDate birthDate;
 }User;
 
 char* getUserType(enum UserType type);
 char* getGender(enum Gender type);
 char* getSpetialization(enum Spetialization type);
 
-User* createUser(char* name, enum UserType type,enum Gender gender, enum Spetialization spetialization, unsigned int birthYear);
+void createUser(User** user,char* name, enum UserType type,enum Gender gender, enum Spetialization spetialization, BirthDate birthYear);
 
 //void setUserData(User* user,char* name, enum USerType type,enum Gender gender, enum Spetialization stearate, int birthYear);
 void printUser(User* user);
