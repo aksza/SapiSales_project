@@ -74,3 +74,22 @@ void printUsers(UserArray*userArray,int numberOfUsers){
 void deleteUserArray(UserArray **userArray){
     free((*userArray)->Users);
 }
+int searchbyid(UserArray *userArray,int id){
+    if((*userArray).numberOfUsers == 0){
+        printf("Nincsenek felhasznalok!\n");
+        return -1;
+    }
+    int position = -1;
+    for(int i = 0;i <(*userArray).numberOfUsers;++i){
+        if((*userArray).Users[i]->id == id){
+            position = i;
+        }
+    }
+    if(position == -1){
+        printf("Nem talalhato a felhasznalo!\n");
+        return -1;
+    }
+    else{
+        return position;
+    }
+}

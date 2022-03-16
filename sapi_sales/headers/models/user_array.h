@@ -19,4 +19,6 @@ bool addNewUser(UserArray* userArray,User* newUser);
 void printUsers(UserArray*userArray,int numberOfUsers);
 User* getUserAtPosition(UserArray* userArray,int position);
 
+//orai pont
+int searchbyid(UserArray *userArray,int id);
 #endif //SAPISALES_PROJECT_USER_ARRAY_H
