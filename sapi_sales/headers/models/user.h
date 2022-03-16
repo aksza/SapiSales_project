@@ -11,6 +11,7 @@
 #include "messages.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 enum UserType{
     STUDENT,
@@ -46,14 +47,15 @@ typedef struct {
     //unsigned int birthYear; -> change this
     BirthDate birthDate;
 }User;
-
+bool leapyear(int year);
+BirthDate birthDateGenerate();
 char* getUserType(enum UserType type);
 char* getGender(enum Gender type);
 char* getSpetialization(enum Spetialization type);
 
-void createUser(User** user,char* name, enum UserType type,enum Gender gender, enum Spetialization spetialization, BirthDate birthYear);
+void createUser(User** user);
+void setUserData(User *user, char* name, enum UserType type,enum Gender gender, enum Spetialization spetialization, BirthDate birthYear);
 
-//void setUserData(User* user,char* name, enum USerType type,enum Gender gender, enum Spetialization stearate, int birthYear);
-void printUser(User* user);
-//void deleteUser(User** use);
+void printUser(User* user,char* destination);
+void deleteUser(User** user);
 #endif //SAPISALES_PROJECT_USER_H

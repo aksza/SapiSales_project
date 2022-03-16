@@ -32,15 +32,11 @@ typedef struct {
 
 char* getProductType(enum ProductType type);
 
-void createProduct(
-        Product **product,
-        char id[10],
-        char name[20],
-        enum ProductType type,
-        unsigned int amount,
-        float price
-        );
+void createProduct(Product **product);
+void setProductData(Product* product,char* id,char* name,enum ProductType type, unsigned int amount,float price);
+
 
 void printProduct(Product* product);
+void deleteProduct(Product**);
 
 #endif //SAPISALES_PROJECT_PRODUCT_H

@@ -3,9 +3,15 @@
 //
 
 #include "lab_manager.h"
+#include "messages.h"
 
 void lab2(){
     printDescriptionMessage(LAB2);
-    //testUserFunctionalities();
+    testUserFunctionalities();
+    testProductFunctionalities();
+}
+void lab3(){
+    printDescriptionMessage(LAB3);
+    testUserFunctionalities();
     testProductFunctionalities();
 }

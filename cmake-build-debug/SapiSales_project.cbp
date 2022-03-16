@@ -83,6 +83,9 @@
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab2.h">
 			<Option target="SapiSales_project"/>
 		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab3.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab_manager.h">
 			<Option target="SapiSales_project"/>
 		</Unit>
@@ -92,10 +95,16 @@
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models/user.h">
 			<Option target="SapiSales_project"/>
 		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models/user_array.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/main.c">
 			<Option target="SapiSales_project"/>
 		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab2.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab3.c">
 			<Option target="SapiSales_project"/>
 		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab_manager.c">
@@ -105,6 +114,9 @@
 			<Option target="SapiSales_project"/>
 		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/models/user.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/models/user_array.c">
 			<Option target="SapiSales_project"/>
 		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/headers/errors.h">

@@ -1,9 +1,9 @@
 //
-// Created by Aksza on 2/23/2022.
+// Created by Aksza on 3/9/2022.
 //
 
-#ifndef SAPISALES_PROJECT_LAB2_H
-#define SAPISALES_PROJECT_LAB2_H
+#ifndef SAPISALES_PROJECT_LAB3_H
+#define SAPISALES_PROJECT_LAB3_H
 
 #include "user.h"
 #include "product.h"
@@ -11,5 +11,4 @@
 
 void testUserFunctionalities();
 void testProductFunctionalities();
-
-#endif //SAPISALES_PROJECT_LAB2_H
+#endif //SAPISALES_PROJECT_LAB3_H

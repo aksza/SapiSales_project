@@ -18,15 +18,17 @@ char* getProductType(enum ProductType type){
             return "Undefined";
     }
 }
+void createProduct(Product** product){
+    (*product)= malloc(sizeof(Product));
+}
 
-void createProduct(Product** product,char* id,char* name,enum ProductType type, unsigned int amount,float price){
-
-    strcpy((*product)->id,id);
-    strcpy((*product)->name,name);
-    (*product)->type = type;
-    (*product)->amount = amount;
-    (*product)->creationDate = time(NULL);
-    (*product)->price = price;
+void setProductData(Product* product,char* id,char* name,enum ProductType type, unsigned int amount,float price){
+    strcpy(product->id,id);
+    strcpy(product->name,name);
+    product->type = type;
+    product->amount = amount;
+    product->creationDate = time(NULL);
+    product->price = price;
 }
 
 void printProduct(Product* product){
@@ -42,4 +44,8 @@ void printProduct(Product* product){
            product->amount,
            product->creationDate,
            product->price);
+}
+
+void deleteProduct(Product **product) {
+    free(*product);
 }
