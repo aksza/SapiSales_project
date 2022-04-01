@@ -3,11 +3,13 @@
 //
 
 #include "user.h"
+#include "../../headers/array/product_array.h"
+#include "useful.h"
 #include <time.h>
 #include <stdbool.h>
 
 
-int numberOfUsers = 0;
+//int numberOfUsers = 0;
 
 char* getUserType(enum UserType type){
     switch (type) {
@@ -93,9 +95,13 @@ BirthDate birthDateGenerate(){
 }
 void createUser(User **user) {
     (*user)= malloc(sizeof(User));
+    (*user)->id = ++numberOfUsers;
+    createProductArray(&(*user)->myProducts,MAX_PRODUCTS);
 }
 void setUserData(User *user, char* name, enum UserType type,enum Gender gender, enum Spetialization spetialization, BirthDate birthYear){
-    user->id = ++numberOfUsers;
+    if(!user){
+        printErrorMessage(NULL_POINTER_EXCEPTION);
+    }
     user->spetialization = spetialization;
     user->birthDate.year = birthYear.year;
     user->birthDate.month = birthYear.month;
@@ -106,6 +112,9 @@ void setUserData(User *user, char* name, enum UserType type,enum Gender gender, 
 }
 
 void printUser(User *user,char* destination){
+    if(!user){
+        printErrorMessage(NULL_POINTER_EXCEPTION);
+    }
     freopen(destination,"w",stdout);
     printf("%s details:\n"
            "\t - ID: %i\n"
@@ -121,8 +130,45 @@ void printUser(User *user,char* destination){
            user->birthDate.year,
            user->birthDate.month,
            user->birthDate.day);
+    ///itt printMyProducts volt
+    printMyProducts(user,destination);
+    printf("\n");
+    freopen(CON,"w",stdout);
 }
 
 void deleteUser(User **user) {
-    free((*user));
+    if(*user != NULL){
+        deleteProductArray(&(*user)->myProducts);   ///kiegeszitjuk a felszabaditast a termekek felszabaditasaval is
+        free(*user);
+        *user = NULL;
+        printDeleteMessage(USER);
+    }
+}
+void addNewProductToUser(User *user,Product *newProduct,int position){
+    if(!addNewProduct(user->myProducts,newProduct,position)){
+        printErrorMessage(ADD_PRODUCT_ERROR);
+    }
+}
+void printMyProducts(User *user,char *destination){
+    printf("\n\tPRODUCTS:\n\n");
+    for(int i = 0;i < user->myProducts->maxProducts;++i){
+        if(user->myProducts->products[i] != NULL){
+            printProduct(user->myProducts->products[i],destination);
+        }
+    }
+}
+void readUserProducts(User *user){
+    int nrOfProducts;
+    scanf("%i\n",&nrOfProducts);
+    for(int i = 0;i < nrOfProducts; ++i){
+        Product  *newProduct;
+        createProduct(&newProduct);
+        scanf("%[^\n]"
+              "%i"
+              "%i\n",
+              newProduct->name,
+              &newProduct->type,
+              &newProduct->amount);
+        addNewProductToUser(user,newProduct,i);
+    }
 }

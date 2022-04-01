@@ -26,6 +26,8 @@
 				<Compiler>
 					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager"/>
 					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models"/>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/array"/>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/stack"/>
 					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/headers"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
@@ -47,6 +49,8 @@
 				<Compiler>
 					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager"/>
 					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models"/>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/array"/>
+					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/stack"/>
 					<Add directory="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/headers"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
@@ -80,10 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/array/product_array.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/array/user_array.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab2.h">
 			<Option target="SapiSales_project"/>
 		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab2_3.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab3.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab4.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab5.h">
 			<Option target="SapiSales_project"/>
 		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/manager/lab_manager.h">
@@ -95,7 +114,13 @@
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models/user.h">
 			<Option target="SapiSales_project"/>
 		</Unit>
-		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/models/user_array.h">
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/headers/stack/product_stack.h">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/array/product_array.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/array/user_array.c">
 			<Option target="SapiSales_project"/>
 		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/main.c">
@@ -104,7 +129,16 @@
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab2.c">
 			<Option target="SapiSales_project"/>
 		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab2_3.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab3.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab4.c">
+			<Option target="SapiSales_project"/>
+		</Unit>
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab5.c">
 			<Option target="SapiSales_project"/>
 		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab_manager.c">
@@ -116,7 +150,7 @@
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/models/user.c">
 			<Option target="SapiSales_project"/>
 		</Unit>
-		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/models/user_array.c">
+		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/stack/product_stack.c">
 			<Option target="SapiSales_project"/>
 		</Unit>
 		<Unit filename="D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/headers/errors.h">

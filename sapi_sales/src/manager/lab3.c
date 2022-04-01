@@ -2,20 +2,25 @@
 // Created by Aksza on 3/9/2022.
 //
 #include "lab3.h"
-#include "user_array.h"
-
+#include "../../headers/array/user_array.h"
+/*
 void testUserFunctionalities(){
+
     //After lab2 this need to be commented because the birth year of the user is changed to BirthDate stuct
     //Declaring user pointers
 
     //User *user1;
-    UserArray *userArray;
+    UserArray userArray;
+    int maxUsers1 = 5;
     //Creating users
 
     //createUser(&user1);
+    createUserArray(&userArray,maxUsers1);
 
     //Fill with data
-
+    User user1;
+    setUserData(&user1,"Marta",TEACHER,FEMALE,INFORMATICS,birthDateGenerate());
+    addNewUser(&userArray,&user1);
     //( user1,"Michael Smith",TEACHER,MALE,MATHEMATICS_INFORMATICS,birthDateGenerate());
 
     //user1 = createUser(""Michael Smith",TEACHER,MALE,MATHEMATICS_INFORMATICS,1980);
@@ -25,19 +30,19 @@ void testUserFunctionalities(){
     //Print users
 
     //printUser(user1,CON);
-
+    printUsers(&userArray,userArray.numberOfUsers);
     //Delete users
 
     //deleteUser(&user1);
 
 }
-
+/*
 void testProductFunctionalities(){
-    /*
+
     Product* product1 = createProduct("MS1","Apple",FRUIT,10);
    Product* product1 = createProduct("MS2","Book",SCHOOL,4);
     Product* product3 = createProduct("MS3","Tomato",GROCERY,20);
-    */
+
     Product* product1;
     Product* product2;
     Product* product3;
@@ -53,4 +58,5 @@ void testProductFunctionalities(){
     deleteProduct(&product1);
     deleteProduct(&product2);
     deleteProduct(&product3);
-}
+
+}*/

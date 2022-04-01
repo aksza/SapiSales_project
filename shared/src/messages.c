@@ -11,11 +11,48 @@ void printDescriptionMessage(enum LabType messageType){
             printf("Testing basic User and Product functionalities");
             printf("\n\n**************************************************\n\n");
             break;
+        case LAB2_3:
+            printf("\n\n**************************************************\n\n");
+            printf("Testing basic User and Product functionalities");
+            printf("\n\n**************************************************\n\n");
+            break;
         case LAB3:
             printf("\n\n**************************************************\n\n");
             printf("Testing User with modified BirthDate and UserArray functionalities");
             printf("\n\n**************************************************\n\n");
             break;
+        case LAB4:
+            printf("\n\n**************************************************\n\n");
+            printf("Testing UserArray and ProductArray functionalities");
+            printf("\n\n**************************************************\n\n");
+            break;
+        case LAB5:
+            printf("\n\n**************************************************\n\n");
+            printf("Testing ProductStack functionalities");
+            printf("\n\n**************************************************\n\n");
+            break;
+        default:
+
+            printf("Undefined description\n");
+            break;
+    }
+}
+void printDeleteMessage(enum DeleteType deleteType){
+    switch (deleteType) {
+        case USER:
+            printf("User deleted...\n");
+            break;
+        case PRODUCT:
+            printf("Product deleted...\n");
+            break;
+        case USER_ARRAY:
+            printf("UserArray deleted...\n");
+            break;
+        case PRODUCT_ARRAY:
+            printf("ProductArray deleted...\n");
+            break;
+        case PRODUCT_STACK:
+            printf("ProductStack deleted...\n");
         default:
             printf("Undefined description\n");
             break;

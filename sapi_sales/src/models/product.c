@@ -8,6 +8,8 @@ char* getProductType(enum ProductType type){
     switch (type) {
         case GROCERY:
             return "Grocery";
+        case VEGETABLE:
+            return "Vegetable";
         case FRUIT:
             return "Fruit";
         case SCHOOL:
@@ -20,32 +22,44 @@ char* getProductType(enum ProductType type){
 }
 void createProduct(Product** product){
     (*product)= malloc(sizeof(Product));
+    if(!(*product)){
+        printErrorMessage(MEMORY_ALLOCATION);
+    }
+    (*product)->id = (int)++numberOfProducts;
 }
 
-void setProductData(Product* product,char* id,char* name,enum ProductType type, unsigned int amount,float price){
-    strcpy(product->id,id);
+void setProductData(Product* product,char*name,enum ProductType type,unsigned int amount){
+    if(!product){
+        printErrorMessage(NULL_POINTER_EXCEPTION);
+    }
     strcpy(product->name,name);
     product->type = type;
     product->amount = amount;
     product->creationDate = time(NULL);
-    product->price = price;
 }
 
-void printProduct(Product* product){
-    printf("%s details:\n"
-           "\t - ID: %s\n"
-           "\t - TYPE: %s\n"
-           "\t - AMOUNT: %u\n"
-           "\t - CREATION DATE: %lld\n"
-           "\t - PRICE: %f\n",
+void printProduct(Product* product,char* destination){
+    if(!product){
+        printErrorMessage(NULL_POINTER_EXCEPTION);
+    }
+    freopen(destination,"w",stdout);
+    printf("\t%s details:\n"
+           "\t\t - ID: %i\n"
+           "\t\t - TYPE: %s\n"
+           "\t\t - AMOUNT: %u\n"
+           "\t\t - CREATION DATE: %lld\n",
            product->name,
            product->id,
            getProductType(product->type),
            product->amount,
-           product->creationDate,
-           product->price);
+           product->creationDate);
+    freopen(CON,"w",stdout);
 }
 
 void deleteProduct(Product **product) {
-    free(*product);
+    if(*product != NULL){
+        free(*product);
+        *product = NULL;
+        printDeleteMessage(PRODUCT);
+    }
 }
