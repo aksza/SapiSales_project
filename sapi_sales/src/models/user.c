@@ -131,8 +131,8 @@ void printUser(User *user,char* destination){
            user->birthDate.month,
            user->birthDate.day);
     ///itt printMyProducts volt
-    printMyProducts(user,destination);
-    printf("\n");
+    //printMyProducts(user,destination);
+    //printf("\n");
     freopen(CON,"w",stdout);
 }
 

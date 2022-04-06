@@ -9,7 +9,7 @@ void createUserQueue(UserQueue **userQueue, unsigned int maxSize) {
     if(!(*userQueue)){
         printErrorMessage(MEMORY_ALLOCATION);
     }
-    (*userQueue)->users = malloc(sizeof(userQueue));
+    (*userQueue)->users = malloc(maxSize*sizeof(userQueue));
     if(!(*userQueue)->users){
         printErrorMessage(MEMORY_ALLOCATION);
     }
@@ -17,22 +17,19 @@ void createUserQueue(UserQueue **userQueue, unsigned int maxSize) {
     for(int i = 0; i< (*userQueue)->maxsize; ++i){
         (*userQueue)->users[i] = NULL;
     }
-    (*userQueue)->front = -1;
+    (*userQueue)->front = 0;
     (*userQueue)->rear = 0;
 
 }
 
 bool queueIsEmpty(UserQueue *userQueue) {
-    if(userQueue->front == -1){
-        return true;
-    }
-    if(userQueue->front == userQueue->rear - 1){
+    if(userQueue->rear == 0 || userQueue->front==userQueue->rear){
         return true;
     }
     return false;
 }
 bool queueIsFull(UserQueue *userQueue){
-    if(userQueue->rear == userQueue->maxsize - 1){
+    if(userQueue->rear == userQueue->maxsize){
         return true;
     }
     return false;
