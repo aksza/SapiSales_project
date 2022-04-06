@@ -31,6 +31,11 @@ void printDescriptionMessage(enum LabType messageType){
             printf("Testing ProductStack functionalities");
             printf("\n\n**************************************************\n\n");
             break;
+        case LAB8:
+            printf("\n\n**************************************************\n\n");
+            printf("Testing UserQueue functionalities");
+            printf("\n\n**************************************************\n\n");
+            break;
         default:
 
             printf("Undefined description\n");
@@ -53,6 +58,10 @@ void printDeleteMessage(enum DeleteType deleteType){
             break;
         case PRODUCT_STACK:
             printf("ProductStack deleted...\n");
+            break;
+        case USER_QUEUE:
+            printf("User queue deleted...\n");
+            break;
         default:
             printf("Undefined description\n");
             break;

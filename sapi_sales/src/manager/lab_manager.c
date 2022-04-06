@@ -24,14 +24,17 @@ void lab4(){
     /// a felhasznalok listajaval es a termekekkel kapcsolatos muveleteket
     testUserArrayFunctionalities4();
 }
-*/
+
 void lab5(){
     printDescriptionMessage(LAB5);
     testProductStackFunctionalities();
 }
-/*
 void lab3(){
     printDescriptionMessage(LAB3);
     testUserFunctionalities();
     testProductFunctionalities();
 }*/
+void lab8(){
+    printDescriptionMessage(LAB8);
+    testUserQueueFunctionalities();
+}

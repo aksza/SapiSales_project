@@ -10,10 +10,11 @@
 #include "lab4.h"
 #include "lab5.h"
 #include "lab3.h"
-
+#include "lab8.h"
 void lab2();
 void lab2_3();
 void lab4();
 void lab5();
+void lab8();
 //void lab3();
 #endif //SAPISALES_PROJECT_LAB_MANAGER_H

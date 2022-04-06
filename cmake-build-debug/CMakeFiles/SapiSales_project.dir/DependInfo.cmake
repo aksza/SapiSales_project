@@ -16,9 +16,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab3.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab3.c.obj"
   "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab4.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab4.c.obj"
   "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab5.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab5.c.obj"
+  "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab8.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab8.c.obj"
   "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/manager/lab_manager.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.obj"
   "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/models/product.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/product.c.obj"
   "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/models/user.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/sapi_sales/src/models/user.c.obj"
+  "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/queue/user_queue.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/sapi_sales/src/queue/user_queue.c.obj"
   "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/sapi_sales/src/stack/product_stack.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/sapi_sales/src/stack/product_stack.c.obj"
   "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/src/errors.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/shared/src/errors.c.obj"
   "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/shared/src/messages.c" "D:/egyetem/elso ev/masodik felev/algo/kodok/SapiSales_project/cmake-build-debug/CMakeFiles/SapiSales_project.dir/shared/src/messages.c.obj"
@@ -31,6 +33,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../sapi_sales/headers/models"
   "../sapi_sales/headers/array"
   "../sapi_sales/headers/stack"
+  "../sapi_sales/headers/queue"
   "../shared/headers"
   )
 

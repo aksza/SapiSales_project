@@ -31,12 +31,13 @@ add_executable(SapiSales_project
         sapi_sales/headers/stack/product_stack.h
         sapi_sales/src/stack/product_stack.c
         sapi_sales/headers/manager/lab5.h
-        sapi_sales/src/manager/lab5.c)
+        sapi_sales/src/manager/lab5.c sapi_sales/headers/queue/user_queue.h sapi_sales/src/queue/user_queue.c sapi_sales/headers/manager/lab8.h sapi_sales/src/manager/lab8.c)
 
 include_directories(
         sapi_sales/headers/manager
         sapi_sales/headers/models
         sapi_sales/headers/array
         sapi_sales/headers/stack
+        sapi_sales/headers/queue
         shared/headers
 )

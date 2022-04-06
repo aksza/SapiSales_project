@@ -11,8 +11,8 @@ int main() {
     //Labor4 - UserArray, ProductArray
     //lab4();
     //Lab5 - STACK
-    lab5();
-
+//    lab5();
+    lab8();
 
     return 0;
 }
