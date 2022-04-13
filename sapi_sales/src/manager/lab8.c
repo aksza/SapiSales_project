@@ -72,7 +72,7 @@ void testUserQueueFunctionalities() {
                     printf("No user with this id");
                 }
                 else{
-                    printf("%i is the place where danm haha", id);
+                    printf("%i ", id);
                 }
                 break;
             case 7: {

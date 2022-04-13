@@ -87,5 +87,19 @@ void deleteQueue(UserQueue **userQueue) {
         printDeleteMessage(USER_QUEUE);
     }
 }
+int findElementInQueueByUser(UserQueue* userQueue,User user){
+    if(queueIsEmpty(userQueue)){
+        printf("Queue is empty!");
+        return -1;
+    }else {
+        for (int i = userQueue->front; i < userQueue->rear; ++i) {
+            if(userQueue->users[i]->id == user.id && userQueue->users[i]->birthDate.year == user.birthDate.year && userQueue->users[i]->birthDate.month == userQueue->users[i]->birthDate.day && userQueue->users[i]->spetialization && userQueue->users[i]->gender == user.gender && userQueue->users[i]->type == user.type && strcmp(userQueue->users[i]->name,user.name) == 0){
+                return (int)userQueue->users[i]->id;
+            }
+        }
+    }
+    return -1;
+
+}
 
 

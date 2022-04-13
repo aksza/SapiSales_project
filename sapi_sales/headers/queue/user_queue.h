@@ -19,5 +19,6 @@ void dequeue(UserQueue* userQueue);
 int findElementInQueue(UserQueue* userQueue,int userId);
 void printQueue(UserQueue* userQueue,char* destination);
 void deleteQueue(UserQueue** userQueue);
+int findElementInQueueByUser(UserQueue* UserQueue,User user);
 
 #endif //SAPISALES_PROJECT_USER_QUEUE_H
