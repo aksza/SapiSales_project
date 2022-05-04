@@ -38,3 +38,7 @@ void lab8(){
     printDescriptionMessage(LAB8);
     testUserQueueFunctionalities();
 }
+void lab10(){
+    printDescriptionMessage(LAB10);
+    testUserBSTFunctionalities();
+}

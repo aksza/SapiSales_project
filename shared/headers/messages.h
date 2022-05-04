@@ -11,6 +11,7 @@ enum LabType{
     LAB4,
     LAB5,
     LAB8,
+    LAB10,
 };
 enum DeleteType{
     USER,
@@ -19,6 +20,7 @@ enum DeleteType{
     PRODUCT_ARRAY,
     PRODUCT_STACK,
     USER_QUEUE,
+    USER_BST,
 };
 void printDescriptionMessage(enum LabType messageType);
 void printDeleteMessage(enum DeleteType deleteType);

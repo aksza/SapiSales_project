@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SapiSales_project.dir/sapi_sales/src/array/product_array.c.obj"
   "CMakeFiles/SapiSales_project.dir/sapi_sales/src/array/user_array.c.obj"
+  "CMakeFiles/SapiSales_project.dir/sapi_sales/src/binary_search_tree/user_bst.c.obj"
+  "CMakeFiles/SapiSales_project.dir/sapi_sales/src/list/user_list.c.obj"
   "CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj"
+  "CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab10.c.obj"
   "CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2.c.obj"
   "CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab2_3.c.obj"
   "CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab3.c.obj"

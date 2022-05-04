@@ -17,6 +17,15 @@ CMakeFiles/SapiSales_project.dir/sapi_sales/src/array/user_array.c.obj: \
  ../shared/headers/useful.h \
  ../sapi_sales/headers/array/user_array.h \
  ../sapi_sales/src/array/user_array.c
+CMakeFiles/SapiSales_project.dir/sapi_sales/src/list/user_list.c.obj: \
+ ../sapi_sales/headers/array/product_array.h \
+ ../sapi_sales/headers/list/user_list.h \
+ ../sapi_sales/headers/models/product.h \
+ ../sapi_sales/headers/models/user.h \
+ ../shared/headers/errors.h \
+ ../shared/headers/messages.h \
+ ../shared/headers/useful.h \
+ ../sapi_sales/src/list/user_list.c
 CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj: \
  ../sapi_sales/headers/array/product_array.h \
  ../sapi_sales/headers/array/user_array.h \
@@ -29,6 +38,7 @@ CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.obj: \
  ../sapi_sales/headers/manager/lab_manager.h \
  ../sapi_sales/headers/models/product.h \
  ../sapi_sales/headers/models/user.h \
+ ../sapi_sales/headers/queue/user_queue.h \
  ../sapi_sales/headers/stack/product_stack.h \
  ../shared/headers/errors.h \
  ../shared/headers/messages.h \
@@ -95,6 +105,7 @@ CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab_manager.c.obj: \
  ../sapi_sales/headers/manager/lab_manager.h \
  ../sapi_sales/headers/models/product.h \
  ../sapi_sales/headers/models/user.h \
+ ../sapi_sales/headers/queue/user_queue.h \
  ../sapi_sales/headers/stack/product_stack.h \
  ../shared/headers/errors.h \
  ../shared/headers/messages.h \

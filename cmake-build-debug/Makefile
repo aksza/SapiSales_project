@@ -176,6 +176,54 @@ sapi_sales/src/array/user_array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/array/user_array.c.s
 .PHONY : sapi_sales/src/array/user_array.c.s
 
+sapi_sales/src/binary_search_tree/user_bst.obj: sapi_sales/src/binary_search_tree/user_bst.c.obj
+.PHONY : sapi_sales/src/binary_search_tree/user_bst.obj
+
+# target to build an object file
+sapi_sales/src/binary_search_tree/user_bst.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/binary_search_tree/user_bst.c.obj
+.PHONY : sapi_sales/src/binary_search_tree/user_bst.c.obj
+
+sapi_sales/src/binary_search_tree/user_bst.i: sapi_sales/src/binary_search_tree/user_bst.c.i
+.PHONY : sapi_sales/src/binary_search_tree/user_bst.i
+
+# target to preprocess a source file
+sapi_sales/src/binary_search_tree/user_bst.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/binary_search_tree/user_bst.c.i
+.PHONY : sapi_sales/src/binary_search_tree/user_bst.c.i
+
+sapi_sales/src/binary_search_tree/user_bst.s: sapi_sales/src/binary_search_tree/user_bst.c.s
+.PHONY : sapi_sales/src/binary_search_tree/user_bst.s
+
+# target to generate assembly for a file
+sapi_sales/src/binary_search_tree/user_bst.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/binary_search_tree/user_bst.c.s
+.PHONY : sapi_sales/src/binary_search_tree/user_bst.c.s
+
+sapi_sales/src/list/user_list.obj: sapi_sales/src/list/user_list.c.obj
+.PHONY : sapi_sales/src/list/user_list.obj
+
+# target to build an object file
+sapi_sales/src/list/user_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/list/user_list.c.obj
+.PHONY : sapi_sales/src/list/user_list.c.obj
+
+sapi_sales/src/list/user_list.i: sapi_sales/src/list/user_list.c.i
+.PHONY : sapi_sales/src/list/user_list.i
+
+# target to preprocess a source file
+sapi_sales/src/list/user_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/list/user_list.c.i
+.PHONY : sapi_sales/src/list/user_list.c.i
+
+sapi_sales/src/list/user_list.s: sapi_sales/src/list/user_list.c.s
+.PHONY : sapi_sales/src/list/user_list.s
+
+# target to generate assembly for a file
+sapi_sales/src/list/user_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/list/user_list.c.s
+.PHONY : sapi_sales/src/list/user_list.c.s
+
 sapi_sales/src/main.obj: sapi_sales/src/main.c.obj
 .PHONY : sapi_sales/src/main.obj
 
@@ -199,6 +247,30 @@ sapi_sales/src/main.s: sapi_sales/src/main.c.s
 sapi_sales/src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/main.c.s
 .PHONY : sapi_sales/src/main.c.s
+
+sapi_sales/src/manager/lab10.obj: sapi_sales/src/manager/lab10.c.obj
+.PHONY : sapi_sales/src/manager/lab10.obj
+
+# target to build an object file
+sapi_sales/src/manager/lab10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab10.c.obj
+.PHONY : sapi_sales/src/manager/lab10.c.obj
+
+sapi_sales/src/manager/lab10.i: sapi_sales/src/manager/lab10.c.i
+.PHONY : sapi_sales/src/manager/lab10.i
+
+# target to preprocess a source file
+sapi_sales/src/manager/lab10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab10.c.i
+.PHONY : sapi_sales/src/manager/lab10.c.i
+
+sapi_sales/src/manager/lab10.s: sapi_sales/src/manager/lab10.c.s
+.PHONY : sapi_sales/src/manager/lab10.s
+
+# target to generate assembly for a file
+sapi_sales/src/manager/lab10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SapiSales_project.dir\build.make CMakeFiles/SapiSales_project.dir/sapi_sales/src/manager/lab10.c.s
+.PHONY : sapi_sales/src/manager/lab10.c.s
 
 sapi_sales/src/manager/lab2.obj: sapi_sales/src/manager/lab2.c.obj
 .PHONY : sapi_sales/src/manager/lab2.obj
@@ -527,9 +599,18 @@ help:
 	@echo ... sapi_sales/src/array/user_array.obj
 	@echo ... sapi_sales/src/array/user_array.i
 	@echo ... sapi_sales/src/array/user_array.s
+	@echo ... sapi_sales/src/binary_search_tree/user_bst.obj
+	@echo ... sapi_sales/src/binary_search_tree/user_bst.i
+	@echo ... sapi_sales/src/binary_search_tree/user_bst.s
+	@echo ... sapi_sales/src/list/user_list.obj
+	@echo ... sapi_sales/src/list/user_list.i
+	@echo ... sapi_sales/src/list/user_list.s
 	@echo ... sapi_sales/src/main.obj
 	@echo ... sapi_sales/src/main.i
 	@echo ... sapi_sales/src/main.s
+	@echo ... sapi_sales/src/manager/lab10.obj
+	@echo ... sapi_sales/src/manager/lab10.i
+	@echo ... sapi_sales/src/manager/lab10.s
 	@echo ... sapi_sales/src/manager/lab2.obj
 	@echo ... sapi_sales/src/manager/lab2.i
 	@echo ... sapi_sales/src/manager/lab2.s
