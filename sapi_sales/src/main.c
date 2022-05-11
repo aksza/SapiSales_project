@@ -13,7 +13,7 @@ int main() {
     //Lab5 - STACK
 //    lab5();
 //    lab8();
-    lab10();
-
+    //lab10();
+    lab12();
     return 0;
 }

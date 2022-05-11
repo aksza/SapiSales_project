@@ -41,9 +41,10 @@ add_executable(SapiSales_project
         sapi_sales/src/binary_search_tree/user_bst.c
         sapi_sales/headers/binary_search_tree/user_bst.h
         sapi_sales/src/manager/lab10.c
-        sapi_sales/headers/manager/lab10.h)
+        sapi_sales/headers/manager/lab10.h sapi_sales/src/hash/product_hash.c sapi_sales/headers/hash/product_hash.h sapi_sales/src/manager/lab12.c sapi_sales/headers/manager/lab12.h)
 
 include_directories(
+        sapi_sales/headers/hash
         sapi_sales/headers/manager
         sapi_sales/headers/models
         sapi_sales/headers/array

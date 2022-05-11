@@ -48,4 +48,6 @@ void createProductArray(ProductArray **productArray, unsigned int maxProducts);
     * @return a termek vagy NULL
     */
     Product *getProductAtPosition(ProductArray* productArray,int position);
+
+    void randProductArray(Product* product);
 #endif //SAPISALES_PROJECT_PRODUCT_ARRAY_H

@@ -58,3 +58,24 @@ int findElementInArray(ProductArray *productArray,int productId){
     }
     return -1;
 }
+void randProductArray(Product* product){
+    int productType, k;
+    unsigned int amount;
+    char *name;
+    ///Fill with data
+    productType=rand()%4;
+    k=4+rand()%(10-4);
+    amount = 1+rand()%(20-1);
+    name=(char*)calloc(k+1, sizeof(char));
+    if(name == NULL){
+        printErrorMessage(MEMORY_ALLOCATION);
+    }
+    for (int j = 0; j < k; ++j) {
+        name[j]='a'+(rand()%25);
+        if(j==0){
+            name[j]-=32;
+        }
+    }
+    setProductData(product, name, productType, amount);
+    free(name);
+}

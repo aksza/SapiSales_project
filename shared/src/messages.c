@@ -41,6 +41,11 @@ void printDescriptionMessage(enum LabType messageType){
             printf("Testing UserBST functionalities");
             printf("\n\n**************************************************\n\n");
             break;
+        case LAB12:
+            printf("\n\n**************************************************\n\n");
+            printf("Testing Product Hash functionalities");
+            printf("\n\n**************************************************\n\n");
+            break;
         default:
 
             printf("Undefined description\n");
@@ -69,6 +74,8 @@ void printDeleteMessage(enum DeleteType deleteType){
             break;
         case USER_BST:
             printf("User bst deleted....\n");
+        case PRODUCT_HASH:
+            printf("Product hash deleted....\n");
         default:
             printf("Undefined description\n");
             break;
